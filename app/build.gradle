@@ -37,4 +37,6 @@ dependencies {
 
     implementation "com.google.firebase:firebase-core:${versions.firebase}"
     implementation "com.crashlytics.sdk.android:crashlytics:${versions.crashlytics}"
+    implementation "android.arch.navigation:navigation-fragment-ktx:${versions.navigation}"
+    implementation "android.arch.navigation:navigation-ui-ktx:${versions.navigation}"
 }

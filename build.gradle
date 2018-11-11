@@ -16,8 +16,8 @@ buildscript {
             'test_runner'      : '1.0.2',
             'expresso'         : '3.0.2',
             'firebase'         : '16.0.5',
-            'crashlytics'      : '2.9.6'
-
+            'crashlytics'      : '2.9.6',
+            'navigation'       : '1.0.0-alpha07',
     ]
 
     repositories {
