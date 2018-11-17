@@ -29,8 +29,9 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${versions.kotlin}"
-    implementation "com.android.support:appcompat-v7:${versions.support_lib}"
+    implementation "androidx.appcompat:appcompat:${versions.support_lib}"
     implementation "androidx.constraintlayout:constraintlayout:${versions.constraint_layout}"
+    implementation "androidx.legacy:legacy-support-v4:${versions.legacy_support}"
     testImplementation "junit:junit:${versions.junit}"
     androidTestImplementation "com.android.support.test:runner:${versions.test_runner}"
     androidTestImplementation "com.android.support.test.espresso:espresso-core:${versions.expresso}"
