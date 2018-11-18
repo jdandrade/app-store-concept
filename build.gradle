@@ -33,6 +33,7 @@ buildscript {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${versions.kotlin}"
         classpath "com.google.gms:google-services:${versions.googleservices}"
         classpath "io.fabric.tools:gradle:${versions.fabric}"
+        classpath "android.arch.navigation:navigation-safe-args-gradle-plugin:${versions.navigation}"
     }
 }
 
