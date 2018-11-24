@@ -39,6 +39,10 @@ dependencies {
     implementation "androidx.constraintlayout:constraintlayout:${versions.constraint_layout}"
     implementation "androidx.legacy:legacy-support-v4:${versions.legacy_support}"
 
+    //lifecycle
+    implementation "androidx.lifecycle:lifecycle-runtime:${versions.lifecycle}"
+    implementation "androidx.lifecycle:lifecycle-extensions:${versions.lifecycle}"
+
     //navigation component
     implementation "android.arch.navigation:navigation-fragment-ktx:${versions.navigation}"
     implementation "android.arch.navigation:navigation-ui-ktx:${versions.navigation}"
