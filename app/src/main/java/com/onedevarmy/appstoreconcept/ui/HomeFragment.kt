@@ -1,4 +1,4 @@
-package com.onedevarmy.appstoreconcept
+package com.onedevarmy.appstoreconcept.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,6 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProviders
+import com.onedevarmy.appstoreconcept.Injection
+import com.onedevarmy.appstoreconcept.R
+import com.onedevarmy.appstoreconcept.ViewModelFactory
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers

@@ -1,4 +1,4 @@
-package com.onedevarmy.appstoreconcept
+package com.onedevarmy.appstoreconcept.model
 
 import io.reactivex.Flowable
 import io.reactivex.functions.BiFunction
