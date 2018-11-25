@@ -6,7 +6,7 @@ import io.reactivex.Flowable
 
 class StoreViewModel(private val appRepository: AppRepository) : ViewModel() {
 
-    fun helloWorld(): Flowable<String> {
+    fun getApps(): Flowable<String> {
         return appRepository.getApps()
     }
 }
