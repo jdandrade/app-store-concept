@@ -40,12 +40,11 @@ class HomeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
         disposables.add(
             viewModel.getApps()
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribeOn(Schedulers.io())
-                .subscribe { this.hello_world.text = it }
+                .subscribe { this.hello_world.text = it.appName }
         )
 
     }
