@@ -9,10 +9,11 @@ import androidx.lifecycle.ViewModelProviders
 import com.onedevarmy.appstoreconcept.Injection
 import com.onedevarmy.appstoreconcept.R
 import com.onedevarmy.appstoreconcept.ViewModelFactory
+import com.squareup.picasso.Picasso
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
-import kotlinx.android.synthetic.main.fragment_home.*
+import kotlinx.android.synthetic.main.app_item.*
 
 class HomeFragment : Fragment() {
 
@@ -44,7 +45,10 @@ class HomeFragment : Fragment() {
             viewModel.getApps()
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribeOn(Schedulers.io())
-                .subscribe { this.hello_world.text = it.appName }
+                .subscribe {
+                    this.app_name.text = it.appName
+                    Picasso.get().load(it.featureGraphic).into(this.app_image)
+                }
         )
 
     }
