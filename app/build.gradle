@@ -60,6 +60,7 @@ dependencies {
 
     //local unit tests
     testImplementation "junit:junit:${versions.junit}"
+    testImplementation "org.mockito:mockito-all:${versions.mockito}"
 
     //android testing support libraries
     androidTestImplementation "com.android.support.test:runner:${versions.test_runner}"
