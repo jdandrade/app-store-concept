@@ -9,7 +9,6 @@
             android:id="@+id/app_list"
             tools:listitem="@layout/app_item"
             tools:itemCount="15"
-            app:orientation="vertical"
             app:spanCount="3"
             app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
             android:layout_width="match_parent"
