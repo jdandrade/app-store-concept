@@ -17,7 +17,7 @@ buildscript {
             'expresso'         : '3.0.2',
             'firebase'         : '16.0.5',
             'crashlytics'      : '2.9.6',
-            'navigation'       : '1.0.0-alpha07',
+            'navigation'       : '1.0.0-alpha08',
             'legacy_support'   : '1.0.0',
             'rxjava'           : '2.2.0',
             'rxandroid'        : '2.1.0',
