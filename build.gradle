@@ -15,7 +15,7 @@ buildscript {
             'junit'            : '4.12',
             'test_runner'      : '1.0.2',
             'expresso'         : '3.0.2',
-            'firebase'         : '16.0.5',
+            'firebase'         : '16.0.6',
             'crashlytics'      : '2.9.6',
             'navigation'       : '1.0.0-alpha08',
             'legacy_support'   : '1.0.0',
